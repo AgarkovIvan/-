@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Благая баня</title>
+    <link rel="stylesheet" href="style.css">
+    <base target="_blank">
+    <script type="text/javascript" src="gallery/scripts/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="gallery/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="gallery/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="gallery/scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+</head>
+<body>
+    <div class="content">
+        <p style="font-size: 28px;"><strong>«Благая баня» на дровах ждёт вас и ваших близких</strong></p>
+        <p>Отдохните, зарядитесь силами и просто хорошо проведите время <strong>в семейной кедровой бане</strong> в черте города, но вдали от городской суеты!</p>
+        <p><strong>Ваше место силы - на улице Благая, 11.</strong></p>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10e3227c5c575198d0faeac0159a5e7bedcf737b11ab8e2da6ab37fed2501b40&amp;width=auto&amp;height=365&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <div class="services">
+            <p><strong>Благая баня - это:</strong></p>
+            <p>- Лечебный аромат большой <strong>кедровой парной с каменной печью на дровах.</strong></p>
+            <p>- Весёлый смех в <strong>комнате отдыха с вместительным столом</strong> до 10 человек.</p>
+            <p>- Прыжки в <strong>купель с родниковой водой</strong> 13 гр. (2 на 3 метра).</p>
+            <p><strong>Обратите внимание!</strong> Наш формат НЕ предполагает: кроватей, «отдельных комнат», диванов и визиток.</p>
+        </div><br>
+        <p style="font-size: 28px;"><strong>Звоните и бронируйте свою баню на дровах во благо!</strong></p>
+        <a href="tel:+79888908811" class="tel">Тел: +7(988)890-88-11</a>
+        <p style="font-size: 28px;">Мы в соц.сетях:</p>
+        <div class="links">
+            <a href="https://vk.com/id770991901"><img src="img/vk-icon.png" alt="vk-icon"></a>
+            <a href="https://instagram.com/blagaya_banya?igshid=YmMyMTA2M2Y="><img src="img/inst-icon.png" alt="instagram-icon"></a>
+        </div>
+        <p style="font-size: 28px;"><strong>Оцените нашу атмосферу по фото:</strong></p>
+        <div class="gallery">
+            <a rel="gallery" class="photo" href="img/img-gallery.png" title="Картинка 1"><img class="photo-mini" src="img/img-gallery.png" width="152" alt="" /></a>
+            <a rel="gallery" class="photo" href="img/img-gallery1.png" title="Картинка 2"><img class="photo-mini" src="img/img-gallery1.png" width="150" alt="" /></a>
+            <a rel="gallery" class="photo" href="img/img-gallery2.png" title="Картинка 3"><img class="photo-mini" src="img/img-gallery2.png" width="150" alt="" /></a>
+            <a rel="gallery" class="photo" href="img/img-gallery4.jpg" title="Картинка 4"><img class="photo-mini" src="img/img-gallery4.jpg" width="154" alt="" /></a>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $("a.photo").fancybox({
+                    transitionIn: 'elastic',
+                    transitionOut: 'elastic',
+                    speedIn: 500,
+                    speedOut: 500,
+                    hideOnOverlayClick: false,
+                    titlePosition: 'over'
+                });
+            });
+        </script> 
+        <p><strong>А лучше приходите и оцените сами-звоните прямо сейчас!</strong></p>
+        <a href="tel:+79888908811" class="tel">Тел: +7(988)890-88-11</a>
+        <br><br>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;">VK and Instagram icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Website by <a href="https://vk.com/vanek.ag05">Ivan Agarkov</a></p>
+    </div>
+</body>
+</html>
